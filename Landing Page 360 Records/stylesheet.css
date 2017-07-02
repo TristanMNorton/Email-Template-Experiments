@@ -1,0 +1,114 @@
+html {
+	margin: 0 auto;
+	background: url(background.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+button {
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	width: 100%;
+	padding: 20px;
+}
+
+
+.feedItem {
+	background-color: hsla(0, 0%, 100%, 0.75);
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+
+.albumRelease {
+	max-width: 25%;
+	display: inline-block;
+	text-align: left;
+	margin: 10px 20px 10px 20px;
+	vertical-align: top;
+	color: #4a2a00;
+}
+
+.albumRelease img {
+	width: 100%;
+	display: inline-block;
+	line-height: 0;
+}
+
+h1 {
+	margin: 0 0 10px 0;
+	text-align: center;
+	color: #4a2a00;
+}
+
+h2 {
+	text-align: center;
+	margin: 0 0 ;
+	font-size: 4em;
+	color: #4a2a00;
+}
+
+h3, h4 {
+	font-size: .75em;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	margin: 10px 0 20px 0;
+	background-color: hsla(0, 0%, 100%, 0.75);
+	border-radius: 5px;
+	padding: 10px 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navLink {
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12,
+Color='#444')";
+  filter: url(#drop-shadow);
+  -webkit-filter: drop-shadow(6px 6px 7px rgba(0,0,0,0.75));
+  filter: drop-shadow(6px 6px 7px rgba(0,0,0,0.75));
+}
+
+@media only screen and (max-width: 599px){
+		nav {
+			flex-direction: column;
+		}
+
+		.navLink {
+			margin: 10px 0 10px 0;
+		}
+
+		button {
+			font-size: 2em;
+			width: 100%;
+			padding: 20px;
+		}
+
+		.albumRelease {
+        	max-width: 100%;
+			display: block;
+			margin: 0 auto;
+			padding: 20px 0 20px 0;
+		}
+    }

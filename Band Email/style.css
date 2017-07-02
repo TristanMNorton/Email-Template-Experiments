@@ -1,0 +1,118 @@
+.email-background {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #D3D3D3;
+}
+.email-container {
+	background-color: white;
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#show-entries {
+	background-color: #eff9fe;
+	padding-bottom: 8px;
+}
+
+#show-entries > h1 {
+	margin: 0 10px 0 10px;
+}
+
+picture, img {
+	line-height: 0;
+}
+
+header {
+	position: relative;
+}
+
+footer {
+	width: 100%;
+	background-color: #558faa;
+	margin: -4px 0 -4px 0;
+	display: inline-block;
+	position: relative;
+}
+#band-press-shot {
+	max-width: 100%;
+	z-index: 0;
+}
+
+#logo {
+	width: 40%;
+	bottom: 30px;
+	left: 30px;
+	position: absolute;
+	z-index: 1;
+	 -webkit-filter: drop-shadow( 5px 5px 5px #000 );
+            filter: drop-shadow( 5px 5px 5px #000 );
+}
+
+img {
+	display: block;
+}
+
+h1 {
+	padding: 15px;
+	margin: 0;
+	border-bottom: 4px solid #558faa;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.25em;
+}
+
+main {
+	display: inline-block;
+}
+
+#news > p {
+	margin: 15px;
+}
+
+.show-entry {
+	margin: 15px;
+	border-bottom: 2px solid #558faa;
+}
+
+.show-entry > p {
+	margin-top: 2px;
+}
+
+#news, #shows {
+	width: 400px;
+	margin: 0;
+	float: left;
+}
+
+footer > img {
+	height: 40px;
+	text-align: right;
+	margin: 10px;
+	display: block;
+	float: right;
+}
+
+@media only screen and (max-width: 450px){
+        h1 {
+            font-size: 26px !important;
+        }
+
+        main {
+        	display: block;
+        }
+
+    }
+
+@media only screen and (max-width: 799px){
+
+        #news, #shows {
+        	width: 100% !important;
+        	margin: 0;
+        }
+
+}

@@ -1,0 +1,114 @@
+.email-background {
+	margin: 0 auto;
+	width: 100%;
+	background-color: #D3D3D3;
+}
+
+.email-container {
+	background-color: white;
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	margin: 0 0 10px 0;
+	color: #4a2a00;
+}
+
+h3 {
+	font-size: .75em;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-size: .75em;
+	margin-top: 0;
+}
+
+
+button {
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	width: 100%;
+	padding: 20px;
+}
+
+footer {
+	padding: 20px;
+	background-color: #4a2a00;
+	color: white;
+}
+
+footer > p {
+	font-size: .5em;
+}
+
+footer > h4 {
+	margin-bottom: 0;
+}
+
+.albumRelease {
+	max-width: 22%;
+	display: inline-block;
+	text-align: left;
+	margin: 15px 40px 20px 40px;
+	vertical-align: top;
+	color: white;
+}
+
+.albumRelease img {
+	width: 100%;
+	display: inline-block;
+	line-height: 0;
+}
+
+#bannerImg {
+	width: 100%;
+	display: block;
+}
+
+#latestNews, #newReleases, #sundayDeals {
+	padding: 20px;
+}
+
+#sundayDeals {
+	text-align: center;
+}
+
+#sundayDeals h2 {
+	font-size: 1em;
+}
+
+#newReleases {
+	background-color: #ac906c;
+}
+
+
+@media only screen and (max-width: 500px){
+        .albumRelease {
+        	max-width: 100%;
+			display: block;
+			margin: 0 auto;
+			padding: 20px 0 20px 0;
+		}
+		h3 {
+			font-size: 1em;
+			margin-bottom: 0;
+		}
+
+		h4 {
+			font-size: 1em;
+			margin-top: 0;
+		}
+		button {
+			font-size: 2em;
+			width: 100%;
+			padding: 20px;
+		}
+
+
+    }
